@@ -1,0 +1,238 @@
+* {
+    padding: 0px;
+    margin: 0pc;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(248, 244, 225);
+
+
+
+
+
+}
+
+.container {
+    margin: 200px;
+   
+    background-color: white;
+
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    box-shadow: 0 5px 100px rgba(165, 42, 42, 0.5);
+    /* Brown color box shadow */
+
+
+
+
+
+
+
+
+}
+
+.Iagree {
+    display: inline-block;
+    font-size:19px;
+}
+
+.brown-line {
+    display: inline-block;
+    margin: 3px;
+}
+
+
+
+.signup {
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 15px;
+    color:white;
+    background-color:rgb(116, 81, 45);
+    font-size:15px;
+    font-family: "Roboto", sans-serif;
+    border:none;
+    cursor:pointer;
+    margin-top:20px;
+    border-radius:10px;
+    transition: box-shadow 0.5s,
+    opacity 0.3s;
+    
+}
+.signup:hover{
+    box-shadow: 2px 6px 35px rgba(208, 54, 54, 0.5);
+
+}
+.signup:active{
+    opacity:0.5;
+}
+
+.already {
+    display: inline-block;
+
+}
+
+#signin {
+    display: inline-block;
+}
+
+.form-box {
+    
+    padding: 50px;
+    padding-top: 0px;
+
+}
+
+#image {  
+    height: 810px;
+    width: 400px;
+    margin-bottom:0px;
+    
+    
+
+}
+
+h2 {
+    font-family: "Noto Sans", sans-serif;
+    padding-top: 20px;
+
+    font-size: 35px;
+}
+
+#second-line {
+    padding: 5px;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+}
+
+tr,
+p {
+    padding: 5px;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+}
+
+table,
+input {
+    padding: 7px;
+    padding-right: 50px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:20px;
+    border-width:1px;
+
+    
+
+}
+input:hover{
+    box-shadow: 0px 6px 35px rgba(208, 54, 54, 0.8);
+}
+
+#box2 {
+    margin-top: 20px;
+}
+
+#google {
+    padding: 10px;
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left:12px;
+    padding-right:12px;
+    margin: 10px;
+    color:white;
+    background-color:rgb(61, 194, 236);
+    border:none;
+    cursor:pointer;
+    font-family: "Roboto", sans-serif;
+    border-radius:5px;
+    transition: box-shadow 0.5s,
+    opacity 0.3s;
+}
+#google:hover{
+    box-shadow: 0px 1px 10px rgba(0, 0,0.1);
+}
+#google:active{
+    opacity:0.7;
+}
+#facebook {
+ 
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left:12px;
+    padding-right:12px;
+    margin: 10px;
+    margin: 10px;
+    color:white;
+    background-color:rgb(76, 59, 207);
+    border:none;
+    cursor:pointer;
+    font-family: "Roboto", sans-serif;
+    transition: box-shadow 0.5s,
+    opacity 0.3s;
+}
+#facebook:hover{
+    box-shadow: 0px 1px 10px rgba(0, 0,0.1);
+}
+#facebook:active{
+    opacity:0.7;
+}
+
+
+
+#apple {
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-left:12px;
+    padding-right:12px;
+    margin: 10px;
+    margin: 10px;
+    color:white;
+    background-color:black;
+    border:none;
+    cursor:pointer;
+    font-family: "Roboto", sans-serif;
+    transition: box-shadow 0.5s,
+    opacity 0.3s;
+}
+#apple:hover{
+    box-shadow: 0px 1px 10px rgba(0, 0,0.1);
+}
+#apple:active{
+    opacity:0.7;
+}
+.brown-line, #signin{
+    color:rgb(84, 51, 16);
+    cursor:pointer;
+
+
+}
+.brown-line:active{
+    opacity:0.7;
+}
+ #signin:active {
+    opacity:0.7;
+}
+.orcontinue{
+     font-family: "Roboto", sans-serif;
+}
+.small-button{
+    padding:7px;
+    background-color:white;
+    border-width:1px;
+    transition: background-color 0.3s;
+    cursor:pointer;
+
+    
+}
+.small-button:active{
+    background-color:rgb(84, 51, 16);
+
+
+}
